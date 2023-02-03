@@ -6,11 +6,11 @@ import java.util.EventObject;
 
 public class Evento {
 
-	String titolo;
-	LocalDate data;
-	private final DateTimeFormatter formattatore = DateTimeFormatter.ofPattern("DD/MM/yyyy");
-	int numeroPostiTotale;
-	int numeroPostiPrenotati;
+	private String titolo;
+	private LocalDate data;
+	private final DateTimeFormatter formattatore = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	private int numeroPostiTotale;
+	private int numeroPostiPrenotati;
 
 	public Evento(String titolo, String data, int numeroPostiTotale) throws Exception {
 		super();
