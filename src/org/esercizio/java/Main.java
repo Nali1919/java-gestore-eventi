@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
+		Concerto c = new Concerto("dkdk","20/03/2023",100,"22:14","2266.555");
+		System.out.println(c);
 		Scanner s = new Scanner(System.in);
 		int posti = 0;
 
